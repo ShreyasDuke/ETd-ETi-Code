@@ -1,4 +1,15 @@
 clear all; close all; clc
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Script Name : Plot_fraction_CFA
+% Author      : Shreyas Suryanarayana
+% Affiliation : Duke University School of Medicine
+% Email       : shreyas.suryanarayana@duke.edu
+% Date        : 07/14/25
+%
+% Description:
+% Plotting and statistical testing of GFP and RFP fraction occupation
+% values from lightsheet imaging data. 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Specify the file path
 disp('Select Br-1/Br-2 GFP Excel File');
 [filename1, filepath1] = uigetfile('*.xlsx', 'Select GFP Excel File');
